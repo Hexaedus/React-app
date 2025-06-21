@@ -4,12 +4,12 @@ import { Notes } from './Notes';
 
 function App() {
   return (
-    <body className='app-body'>
+    <div className='app-body'>
       <div className='component-container'>
         <InputSubmit />
         <Notes />
       </div>
-    </body>
+    </div>
   );
 }
 
