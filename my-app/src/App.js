@@ -1,25 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import InputSubmit from './InputSubmit';
+import { Notes } from './Notes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body className='app-body'>
+      <div className='component-container'>
+        <InputSubmit />
+        <Notes />
+      </div>
+    </body>
   );
 }
 
 export default App;
+
+// notes app
+// input button
+// submit button
+// display notes below
